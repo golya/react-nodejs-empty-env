@@ -1,0 +1,35 @@
+@import './_variables/general.scss';
+@import './text.scss';
+
+.box {
+  background-color: $panel-bg-color;
+  margin: $primary-large-margin;
+  -webkit-box-shadow: 0px 0px 7px 0px #c1c1c1;
+  -moz-box-shadow: 0px 0px 7px 0px #c1c1c1;
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  border-radius: 5px;
+}
+
+.sbox {
+  overflow: scroll;
+}
+
+.mbox {
+  margin: $primary-large-margin;
+}
+
+.pbox {
+  padding: $primary-large-padding;
+}
+
+.cbox {
+  justify-content: center;
+}
+
+.hbox {
+ height: 80%;
+}
+
+.wbox {
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+@import './_variables/general.scss';
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  text-align: right;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.with-space {
+  justify-content: space-between;
+}
+
+.selected {
+  background-color: $primary-selected-bg-color;
+}

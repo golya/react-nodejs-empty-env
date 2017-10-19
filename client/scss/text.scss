@@ -1,0 +1,44 @@
+@import './_variables/general.scss';
+
+@mixin primary-text-style {
+    color: $primary-font-color;
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+}
+
+.primary-text {
+    @include primary-text-style;
+}
+
+@mixin header-text-style {
+    color: $primary-font-color;
+    justify-content: center;
+    padding: $primary-large-padding;
+    font-family: $primary-font;
+    font-size: $primary-header-font-size;
+}
+
+.header-text {
+    @include header-text-style;
+}
+
+@mixin light-text-style {
+  color: $light-font-color;
+  font-family: $primary-font;
+  text-align: center;
+}
+
+.light-text {
+  @include light-text-style;
+}
+
+@mixin info-text-style {
+    color: $light-info-font-color;
+    padding: 15px;
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+}
+
+.info-text {
+    @include info-text-style;
+}
